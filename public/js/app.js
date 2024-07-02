@@ -27,7 +27,7 @@ crazyButton.addEventListener("click", () => {
     offsetLeft:
       Math.random() * (window.innerWidth - crazyButton.clientWidth - 100),
     offsetTop:
-      Math.random() * (window.innerHeight - crazyButton.clientHeight - 100),
+      Math.random() * (window.innerHeight - crazyButton.clientHeight - 50),
   });
 });
 
@@ -39,7 +39,7 @@ function goCrazy(offLeft, offTop) {
   let top, left;
 
   left = offLeft;
-  too = offTop;
+  top = offTop;
 
   crazyButton.style.top = top + "px";
   crazyButton.style.left = left + "px";
